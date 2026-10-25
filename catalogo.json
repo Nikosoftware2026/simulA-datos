@@ -1,0 +1,1905 @@
+{
+  "version": 1,
+  "fecha": "2026-10-25",
+  "mercado": {
+    "fecha": "2026-10-23",
+    "fuente": "BCU – servicio de cotizaciones (dólar billete 2225, UI 9800)",
+    "usd": 40.078,
+    "ui": 6.6745,
+    "ur": 1923.44,
+    "urFuente": "UR julio 2026, decreto MEF 453 (último valor oficial hallado)",
+    "inflacion5": 0.05581538250689544,
+    "dolar5": -0.017953972001273244,
+    "peorInflacion": 0.09767652146563921,
+    "mayorSubaDolar12m": 0.13659419366349757,
+    "anios": [
+      {
+        "desde": "2021-10-23",
+        "hasta": "2022-10-23",
+        "inflacion": 0.09767652146563921,
+        "dolar": -0.06071379734718996
+      },
+      {
+        "desde": "2022-10-23",
+        "hasta": "2023-10-23",
+        "inflacion": 0.039648287100875645,
+        "dolar": -0.033871985247731384
+      },
+      {
+        "desde": "2023-10-23",
+        "hasta": "2024-10-23",
+        "inflacion": 0.054293342520024046,
+        "dolar": 0.04465317193229179
+      },
+      {
+        "desde": "2024-10-23",
+        "hasta": "2025-10-23",
+        "inflacion": 0.042217393435391326,
+        "dolar": -0.04173478219059523
+      },
+      {
+        "desde": "2025-10-23",
+        "hasta": "2026-10-23",
+        "inflacion": 0.046307472840996455,
+        "dolar": 0.005469141996989446
+      }
+    ]
+  },
+  "productos": {
+    "brou-ret-ui-pref": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.07
+        },
+        {
+          "hasta": 48,
+          "tea": 0.08
+        },
+        {
+          "hasta": 63,
+          "tea": 0.08
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 63,
+      "montoMin": {
+        "valor": 4800,
+        "moneda": "UI"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "La cuota se descuenta directamente de tu recibo de sueldo."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-ret-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.075
+        },
+        {
+          "hasta": 48,
+          "tea": 0.085
+        },
+        {
+          "hasta": 63,
+          "tea": 0.085
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 63,
+      "montoMin": {
+        "valor": 4800,
+        "moneda": "UI"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "La cuota se descuenta directamente de tu recibo de sueldo."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-ret-uyu-pref": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 6,
+          "tea": 0.15
+        },
+        {
+          "hasta": 12,
+          "tea": 0.18
+        },
+        {
+          "hasta": 24,
+          "tea": 0.19
+        },
+        {
+          "hasta": 36,
+          "tea": 0.2
+        },
+        {
+          "hasta": 48,
+          "tea": 0.21
+        },
+        {
+          "hasta": 60,
+          "tea": 0.22
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Cuota fija en pesos: no cambia con la inflación."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-ret-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 6,
+          "tea": 0.17
+        },
+        {
+          "hasta": 12,
+          "tea": 0.2
+        },
+        {
+          "hasta": 24,
+          "tea": 0.21
+        },
+        {
+          "hasta": 36,
+          "tea": 0.22
+        },
+        {
+          "hasta": 48,
+          "tea": 0.23
+        },
+        {
+          "hasta": 60,
+          "tea": 0.24
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Cuota fija en pesos: no cambia con la inflación."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-sin-ui-pref": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.08
+        },
+        {
+          "hasta": 48,
+          "tea": 0.09
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": {
+        "valor": 120000,
+        "moneda": "UI"
+      },
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Débito automático de la cuota en tu cuenta del BROU."
+      ],
+      "fuente": {
+        "nombre": "BROU – Préstamos sin retención",
+        "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo/sin-retencion",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-sin-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.09
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 24,
+      "montoMin": null,
+      "montoMax": {
+        "valor": 120000,
+        "moneda": "UI"
+      },
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos."
+      ],
+      "fuente": {
+        "nombre": "BROU – Préstamos sin retención",
+        "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo/sin-retencion",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-sin-uyu-pref": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 6,
+          "tea": 0.22
+        },
+        {
+          "hasta": 12,
+          "tea": 0.25
+        },
+        {
+          "hasta": 24,
+          "tea": 0.26
+        },
+        {
+          "hasta": 36,
+          "tea": 0.27
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 36,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Cuota fija en pesos."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-sin-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 6,
+          "tea": 0.24
+        },
+        {
+          "hasta": 12,
+          "tea": 0.27
+        },
+        {
+          "hasta": 24,
+          "tea": 0.28
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 24,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Cuota fija en pesos."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "brou-sin-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.08
+        },
+        {
+          "hasta": 24,
+          "tea": 0.09
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 24,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "El BROU no publica el costo del seguro de vida ni gastos de otorgamiento.",
+      "salvedades": [
+        "Las tasas de la pizarra son efectivas anuales y el BROU indica que se les suma IVA.",
+        "Si tu calificación en la Central de Riesgos es 3, el BROU suma 1,22 puntos a la tasa.",
+        "Para pedirlo por eBROU hay que aceptar el Acuerdo Marco de préstamos.",
+        "Cobrando en pesos, la cuota sube si sube el dólar."
+      ],
+      "fuente": {
+        "nombre": "BROU – Tasas de préstamos para personas físicas",
+        "url": "https://www.brou.com.uy/documents/20182/22237/TASAS_VIGENTES_PRESTAMOS_PERSONAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.brou.com.uy/personas/prestamos/prestamo-consumo"
+    },
+    "sant-cons-nomina-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.325
+        },
+        {
+          "hasta": 60,
+          "tea": 0.37
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 10000,
+        "moneda": "UYU"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0039,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La cartilla indica el seguro de vida como \"3,9 % mensual\" en pesos y \"0,55 %\" en dólares; se toma como 3,9 y 0,55 por mil porque el porcentaje no es verosímil. Confirmalo.",
+        "Todos los préstamos pagan IVA sobre los intereses."
+      ],
+      "fuente": {
+        "nombre": "Santander – Cartilla Préstamos Consumo",
+        "url": "https://www.santander.com.uy/sites/default/files/2026-08/Cartilla-PrestamosConsumo_2026Ago.pdf",
+        "fecha": "2026-08-01"
+      },
+      "url": "https://www.santander.com.uy/"
+    },
+    "sant-cons-nomina-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.13
+        },
+        {
+          "hasta": 48,
+          "tea": 0.18
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.00055,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La cartilla indica el seguro de vida como \"3,9 % mensual\" en pesos y \"0,55 %\" en dólares; se toma como 3,9 y 0,55 por mil porque el porcentaje no es verosímil. Confirmalo.",
+        "Todos los préstamos pagan IVA sobre los intereses."
+      ],
+      "fuente": {
+        "nombre": "Santander – Cartilla Préstamos Consumo",
+        "url": "https://www.santander.com.uy/sites/default/files/2026-08/Cartilla-PrestamosConsumo_2026Ago.pdf",
+        "fecha": "2026-08-01"
+      },
+      "url": "https://www.santander.com.uy/"
+    },
+    "sant-cons-abierto-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.75
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 10000,
+        "moneda": "UYU"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0039,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La cartilla indica el seguro de vida como \"3,9 % mensual\" en pesos y \"0,55 %\" en dólares; se toma como 3,9 y 0,55 por mil porque el porcentaje no es verosímil. Confirmalo.",
+        "Todos los préstamos pagan IVA sobre los intereses."
+      ],
+      "fuente": {
+        "nombre": "Santander – Cartilla Préstamos Consumo",
+        "url": "https://www.santander.com.uy/sites/default/files/2026-08/Cartilla-PrestamosConsumo_2026Ago.pdf",
+        "fecha": "2026-08-01"
+      },
+      "url": "https://www.santander.com.uy/"
+    },
+    "sant-coche-sustentable": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 36,
+          "tea": 0
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 36,
+      "montoMin": {
+        "valor": 2000,
+        "moneda": "USD"
+      },
+      "montoMax": {
+        "valor": 50000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Santander dice que trabaja la tasa 0 con todas las marcas, pero que depende de cada automotora.",
+        "Preguntá el precio de contado: si a quien paga al contado le descuentan más que la comisión, la tasa 0 deja de convenir.",
+        "Variante con padres: un hijo soltero de 18 a 30 años puede sumar el ingreso de uno de sus padres.",
+        "La página no indica fecha de vigencia."
+      ],
+      "fuente": {
+        "nombre": "Santander – Coche Sustentable",
+        "url": "https://www.santander.com.uy/green-finance/coche-sustentable",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.santander.com.uy/green-finance/coche-sustentable"
+    },
+    "scot-dl-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.35
+        }
+      ],
+      "plazoMin": 13,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 100000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con cuenta y sueldo en Scotiabank la tasa va de 25 % a 37,5 % según el segmento que te asigne el banco.",
+        "Seguro de vida Mapfre 0,25 % mensual sobre saldo, o podés presentar una póliza propia. Comisión de administración 0 %.",
+        "La cuota/ingreso máxima no se publica: se usa 30 %."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – F.2121 Destino Libre",
+        "url": "https://cdn.aglty.io/scotiabank-uruguay/cartillas-condiciones-de-productos/bp/2026/10-octubre/01-actualizacion-cartillas/F2121_20261001_BP-P.A._DESTINO_LIBRE_PESOS_DOLARES_UI-PERS._FISICAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
+    },
+    "scot-dl-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.11
+        }
+      ],
+      "plazoMin": 13,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 4000,
+        "moneda": "UI"
+      },
+      "montoMax": {
+        "valor": 100000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La tasa en UI va de 8 % a 11 % según segmento; se toma la más alta porque el segmento lo define el banco.",
+        "La cuota/ingreso máxima no se publica: se usa 25 %."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – F.2121 Destino Libre",
+        "url": "https://cdn.aglty.io/scotiabank-uruguay/cartillas-condiciones-de-productos/bp/2026/10-octubre/01-actualizacion-cartillas/F2121_20261001_BP-P.A._DESTINO_LIBRE_PESOS_DOLARES_UI-PERS._FISICAS.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
+    },
+    "scot-tasa0-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": "Scotiabank no publica el monto de los gastos de análisis ni del seguro de vida (se estiman).",
+      "salvedades": [
+        "La cuota/ingreso máxima no se publica: se usa la del resto del sistema.",
+        "Preguntá el precio de contado en la automotora."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – Préstamo Automotor Tasa 0 %",
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor-tasa0",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor-tasa0"
+    },
+    "scot-tasa0-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": "Scotiabank no publica el monto de los gastos de análisis ni del seguro de vida (se estiman).",
+      "salvedades": [
+        "La cuota/ingreso máxima no se publica: se usa la del resto del sistema.",
+        "Preguntá el precio de contado en la automotora."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – Préstamo Automotor Tasa 0 %",
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor-tasa0",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor-tasa0"
+    },
+    "itau-personal-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.32
+        },
+        {
+          "hasta": 48,
+          "tea": 0.36
+        }
+      ],
+      "plazoMin": 3,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo)."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamos.html"
+    },
+    "itau-auto-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.085
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "Con Paquete Full (UI 190/mes) o Personal Bank (UI 280/mes) la tasa baja, pero el paquete cuesta todos los meses."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.085
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "Con Paquete Full (UI 190/mes) o Personal Bank (UI 280/mes) la tasa baja, pero el paquete cuesta todos los meses."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.35
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "Con Paquete Full (UI 190/mes) o Personal Bank (UI 280/mes) la tasa baja, pero el paquete cuesta todos los meses."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-tasa0-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 36,
+          "tea": 0
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 36,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": null,
+      "salvedades": [
+        "El tarifario de Itaú tiene dos valores para 24–36 meses (7 % y 6 % + IVA): se usa el más alto.",
+        "Seguro de vida incluido según el banco.",
+        "Preguntá el precio de contado en el concesionario."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "bbva-auto-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.069
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 7000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
+        "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo automotor y cartilla (20/08/2026)",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/automotor.html",
+        "fecha": "2026-08-20"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/automotor.html"
+    },
+    "bbva-auto-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.08
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 7000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
+        "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo automotor y cartilla (20/08/2026)",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/automotor.html",
+        "fecha": "2026-08-20"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/automotor.html"
+    },
+    "bbva-ev-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 72,
+          "tea": 0.05
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 72,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
+        "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
+        "La página del banco muestra una promoción hasta el 31/10/2026: si lo sacás después, confirmá que esta tasa siga vigente."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo para autos eléctricos",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
+    },
+    "bbva-ev-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 72,
+          "tea": 0.055
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 72,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
+        "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
+        "La página del banco muestra una promoción hasta el 31/10/2026: si lo sacás después, confirmá que esta tasa siga vigente."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo para autos eléctricos",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
+    },
+    "bbva-ev-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 72,
+          "tea": 0.0925
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 72,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": "2026-10-31",
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
+        "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
+        "Promoción en pesos válida hasta el 31/10/2026."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo para autos eléctricos",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
+    },
+    "heritage-nomina": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.3
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 12,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "La cartilla no tiene fecha ni costo de seguro.",
+      "salvedades": [
+        "Solo a 12 meses."
+      ],
+      "fuente": {
+        "nombre": "Heritage – Cartilla Préstamos Personales Nómina",
+        "url": "https://www.heritage.com.uy/Files/forms/es/Cartilla-de-Prestamos-Personales-Nomina.docx",
+        "fecha": "sin fecha"
+      },
+      "url": "https://www.heritage.com.uy/"
+    },
+    "verde-personal": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.27
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 24,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargoFijoMensualUI": 49.47526236881559,
+      "incompleto": "Solo se publica un ejemplo ($ 80.000 en 18 cuotas de $ 6.150, válido hasta 30/11/2026): no se conoce el seguro.",
+      "salvedades": [
+        "Las cooperativas pueden estar exoneradas de IVA para socios hasta 250 UR; el ejemplo oficial dice \"IVA incluido\"."
+      ],
+      "fuente": {
+        "nombre": "FUCAC Verde – Créditos personales",
+        "url": "https://www.verde.com.uy/nuestros_productos_creditos_personales.php",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.verde.com.uy/nuestros_productos_creditos_personales.php"
+    },
+    "cash-efectivo": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 36,
+          "tea": 1.3197
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 36,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.006,
+      "incompleto": "Tasas tomadas como máximas de su página (sin fecha) y cartilla de 2024.",
+      "salvedades": [
+        "Seguro de vida 6 por mil mensual; podés contratarlo en otra aseguradora registrada.",
+        "Tasas cercanas al tope legal de usura."
+      ],
+      "fuente": {
+        "nombre": "Crédito de la Casa – Solicitud y cartilla (sep. 2024)",
+        "url": "https://www.creditodelacasa.com.uy/solicitudes/solicitar",
+        "fecha": "2024-09-01"
+      },
+      "url": "https://www.creditodelacasa.com.uy/"
+    },
+    "bhu-comprar": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 300,
+          "tea": 0.0375
+        }
+      ],
+      "plazoMin": 60,
+      "plazoMax": 300,
+      "montoMin": {
+        "valor": 100000,
+        "moneda": "UI"
+      },
+      "montoMax": {
+        "valor": 2800000,
+        "moneda": "UI"
+      },
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0035,
+      "incompleto": "El BHU no publica el costo del seguro de vida del BSE.",
+      "salvedades": [
+        "La tasa sale de la tabla del simulador del BHU: depende de si sos dependiente u otro tipo de trabajador, del plazo, del porcentaje financiado y de si sos ahorrista (0,25 puntos menos). El simulador indica actualización al 15/12/2022: confirmala en el banco.",
+        "Dependientes hasta 25 años de plazo; otros ingresos hasta 20 años.",
+        "Seguro de vida obligatorio con el BSE: su costo no se publica y no está incluido.",
+        "Fondo de Protección del Inmueble: 0,35 % anual sobre el capital (incluido).",
+        "Intereses de vivienda del BHU exonerados de IVA.",
+        "La cuota/ingreso va de 25 % a 35 % según perfil: se usa 25 % (30 % con retención de haberes)."
+      ],
+      "fuente": {
+        "nombre": "BHU – Podés Comprar / Construir / Reformar (ES.CRE)",
+        "url": "https://www.bhu.com.uy/credito/podes-comprar",
+        "fecha": "2026-09-17"
+      },
+      "url": "https://www.bhu.com.uy/credito/podes-comprar"
+    },
+    "bhu-reformar": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 240,
+          "tea": 0.0375
+        }
+      ],
+      "plazoMin": 36,
+      "plazoMax": 240,
+      "montoMin": {
+        "valor": 100000,
+        "moneda": "UI"
+      },
+      "montoMax": {
+        "valor": 1500000,
+        "moneda": "UI"
+      },
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0035,
+      "incompleto": "El BHU no publica el costo del seguro de vida del BSE.",
+      "salvedades": [
+        "La tasa sale de la tabla del simulador del BHU: depende de si sos dependiente u otro tipo de trabajador, del plazo, del porcentaje financiado y de si sos ahorrista (0,25 puntos menos). El simulador indica actualización al 15/12/2022: confirmala en el banco.",
+        "Dependientes hasta 25 años de plazo; otros ingresos hasta 20 años.",
+        "Seguro de vida obligatorio con el BSE: su costo no se publica y no está incluido.",
+        "Fondo de Protección del Inmueble: 0,35 % anual sobre el capital (incluido).",
+        "Intereses de vivienda del BHU exonerados de IVA.",
+        "La cuota/ingreso va de 25 % a 35 % según perfil: se usa 25 % (30 % con retención de haberes)."
+      ],
+      "fuente": {
+        "nombre": "BHU – Podés Comprar / Construir / Reformar (ES.CRE)",
+        "url": "https://www.bhu.com.uy/credito/podes-comprar",
+        "fecha": "2026-09-17"
+      },
+      "url": "https://www.bhu.com.uy/credito/podes-reformar"
+    },
+    "bbva-hip-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 120,
+          "tea": 0.04
+        },
+        {
+          "hasta": 240,
+          "tea": 0.041
+        },
+        {
+          "hasta": 300,
+          "tea": 0.045
+        }
+      ],
+      "plazoMin": 60,
+      "plazoMax": 300,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.001,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Tasas publicadas para quien cobra el sueldo en BBVA; sin sueldo en el banco no publica tasa. Más de USD 100.000: desde 3,75 %.",
+        "Seguro de vida 1 por mil mensual sobre saldo y de incendio 0,4 por mil anual sobre el valor de reconstrucción (se usa el precio).",
+        "Se asume que los intereses en UI para vivienda están exonerados de IVA: confirmalo."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Cartilla Préstamos Hipotecarios",
+        "url": "https://www.bbva.com.uy/content/dam/public-web/uruguay/documents/cartilla-contractual-de-producto/Cartilla-Prestamos-Hipotecarios.pdf",
+        "fecha": "2026-07-20"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/hipotecario/hipotecario.html"
+    },
+    "bbva-hip-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 240,
+          "tea": 0.0675
+        },
+        {
+          "hasta": 300,
+          "tea": 0.07
+        }
+      ],
+      "plazoMin": 60,
+      "plazoMax": 300,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.001,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Cobrando en pesos, la cuota sube si sube el dólar. Se usa cuota/ingreso 20 % como en el resto de la plaza.",
+        "Se asume IVA sobre intereses en dólares."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Cartilla Préstamos Hipotecarios",
+        "url": "https://www.bbva.com.uy/content/dam/public-web/uruguay/documents/cartilla-contractual-de-producto/Cartilla-Prestamos-Hipotecarios.pdf",
+        "fecha": "2026-07-20"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/hipotecario/hipotecario.html"
+    },
+    "sant-hip-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 360,
+          "tea": 0.0375
+        }
+      ],
+      "plazoMin": 36,
+      "plazoMax": 360,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "USD"
+      },
+      "montoMax": {
+        "valor": 750000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.00065,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "Intereses en UI para vivienda principal exonerados de IVA según el banco.",
+        "Seguro de vida: la tabla dice \"0,78 %\" y las notas \"0,65 por mil mensual\"; se usa 0,65 por mil. Confirmalo.",
+        "La tasa no varía con el porcentaje financiado; 95 % / 85 % son topes."
+      ],
+      "fuente": {
+        "nombre": "Santander – Cartilla Crédito Hipotecario",
+        "url": "https://www.santander.com.uy/sites/default/files/2026-06/Credito_Hipotecario_Santander_20260602.pdf",
+        "fecha": "2026-06-02"
+      },
+      "url": "https://www.santander.com.uy/"
+    },
+    "bbva-personal-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.28
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 24,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La comisión de gastos administrativos figura en blanco en la cartilla.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo personal",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html"
+    },
+    "bbva-personal-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.12
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 24,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La comisión de gastos administrativos figura en blanco en la cartilla.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo personal",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html"
+    },
+    "bbva-personal-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 24,
+          "tea": 0.09
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 24,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La comisión de gastos administrativos figura en blanco en la cartilla.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo personal",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html"
+    },
+    "bbva-personal-uyu-sueldo": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.19
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La comisión de gastos administrativos figura en blanco en la cartilla.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo personal",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html"
+    },
+    "bbva-personal-ui-sueldo": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.11
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La comisión de gastos administrativos figura en blanco en la cartilla.",
+        "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares)."
+      ],
+      "fuente": {
+        "nombre": "BBVA – Préstamo personal",
+        "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.bbva.com.uy/personas/productos/prestamos/prestamo-personal/personal.html"
+    },
+    "itau-auto-pb-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.24
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 280,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 280 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-pb-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.07
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 280,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 280 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-pb-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.07
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 280,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 280 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-full-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.3
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 190,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 190 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-full-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.075
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 190,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 190 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-auto-full-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.075
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 48,
+      "montoMin": {
+        "valor": 5000,
+        "moneda": "USD"
+      },
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "cargosAnualesSaldo": 0.0044,
+      "cargoFijoMensualUI": 190,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Itaú no publica edad, ingreso mínimo ni antigüedad para este producto: consultalos.",
+        "El seguro de saldo deudor figura por plazo (12 por mil a 12 meses, 60 por mil a 60): se toma como prima única de 1 por mil por mes.",
+        "Prestación Social Complementaria y Tasa de Control se cobran aparte (0,44 % anual sobre saldo).",
+        "El paquete cuesta UI 190 por mes mientras dure el préstamo: ya está sumado."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamosautomotores.html"
+    },
+    "itau-hip-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 240,
+          "tea": 0.04
+        }
+      ],
+      "plazoMin": 60,
+      "plazoMax": 240,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "seguroMensual": 0.001,
+      "cargosAnualesSaldo": 0.0044,
+      "incompleto": "Itaú no publica los requisitos de acceso.",
+      "salvedades": [
+        "Con Paquete Personal Bank o Full la tasa baja a 3,75 %, pero el paquete se paga todos los meses.",
+        "Se asume exoneración de IVA en UI para vivienda."
+      ],
+      "fuente": {
+        "nombre": "Itaú – Manual de tarifas (hipotecario y paquetes)",
+        "url": "https://www.itau.com.uy/inst/aci/docs/tarifario.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.itau.com.uy/inst/prestamos.html"
+    },
+    "scot-auto-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.064
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": {
+        "valor": 100000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": "Sin cartilla publicada: el seguro de vida y los gastos se estiman.",
+      "salvedades": [
+        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – Préstamo Automotor",
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
+    },
+    "scot-auto-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.075
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 60,
+      "montoMin": null,
+      "montoMax": {
+        "valor": 100000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.0025,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": "Sin cartilla publicada: el seguro de vida y los gastos se estiman.",
+      "salvedades": [
+        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – Préstamo Automotor",
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor",
+        "fecha": "2026-10-24"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
+    },
+    "scot-hip-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 17,
+          "tea": 0.06
+        },
+        {
+          "hasta": 120,
+          "tea": 0.08
+        }
+      ],
+      "plazoMin": 12,
+      "plazoMax": 120,
+      "montoMin": {
+        "valor": 15000,
+        "moneda": "USD"
+      },
+      "montoMax": {
+        "valor": 200000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.001,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": "La cartilla no publica la relación cuota/ingreso ni los requisitos de edad e ingreso.",
+      "salvedades": [
+        "Plazo máximo 10 años: la cuota es alta comparada con un hipotecario a 20 o 25 años.",
+        "La cartilla no aclara el IVA: se asume que se suma."
+      ],
+      "fuente": {
+        "nombre": "Scotiabank – F.2079 Préstamo hipotecario Sin Vueltas",
+        "url": "https://www.scotiabank.com.uy/",
+        "fecha": "2026-07-16"
+      },
+      "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
+    },
+    "sant-hip-usd": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 240,
+          "tea": 0.0675
+        }
+      ],
+      "plazoMin": 36,
+      "plazoMax": 240,
+      "montoMin": {
+        "valor": 20000,
+        "moneda": "USD"
+      },
+      "montoMax": {
+        "valor": 750000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.00065,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "No está claro si los intereses en dólares para vivienda principal pagan IVA: se asume que sí.",
+        "Cobrando en pesos, la cuota depende del dólar."
+      ],
+      "fuente": {
+        "nombre": "Santander – Cartilla Crédito Hipotecario",
+        "url": "https://www.santander.com.uy/sites/default/files/2026-06/Credito_Hipotecario_Santander_20260602.pdf",
+        "fecha": "2026-06-02"
+      },
+      "url": "https://www.santander.com.uy/"
+    },
+    "anda-personal": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 48,
+          "tea": 0.322
+        }
+      ],
+      "grilla": [
+        {
+          "hastaMeses": 10,
+          "hastaMontoUI": 10000,
+          "tea": 0.272
+        },
+        {
+          "hastaMeses": 48,
+          "hastaMontoUI": 10000,
+          "tea": 0.316
+        },
+        {
+          "hastaMeses": 10,
+          "tea": 0.286
+        },
+        {
+          "hastaMeses": 48,
+          "tea": 0.322
+        }
+      ],
+      "plazoMin": 1,
+      "plazoMax": 48,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "ANDA no publica el seguro, la cuota social ni la relación cuota/ingreso.",
+      "salvedades": [
+        "Tasas vigentes para octubre de 2026, más IVA. Mora 37,70 % + IVA."
+      ],
+      "fuente": {
+        "nombre": "ANDA – Préstamos (tasas vigentes octubre 2026)",
+        "url": "https://anda.com.uy/prestamos/",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://anda.com.uy/prestamos/"
+    },
+    "rmf-efectivo": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.44
+        },
+        {
+          "hasta": 18,
+          "tea": 0.46
+        }
+      ],
+      "plazoMin": 3,
+      "plazoMax": 18,
+      "montoMin": {
+        "valor": 3000,
+        "moneda": "UI"
+      },
+      "montoMax": {
+        "valor": 12500,
+        "moneda": "UI"
+      },
+      "vigenciaHasta": null,
+      "incompleto": "La cartilla no publica el seguro de vida ni la relación cuota/ingreso.",
+      "salvedades": [
+        "Cartilla vigente del 01/10 al 31/10/2026. Mora 49 %.",
+        "Hasta 30.000 UI para clientes con 2 años."
+      ],
+      "fuente": {
+        "nombre": "República Microfinanzas – Cartilla Préstamo Efectivo",
+        "url": "https://www.republicamicrofinanzas.com.uy/wp-content/uploads/2025/04/cartilla-prestamo-efectivo.pdf",
+        "fecha": "2026-10-01"
+      },
+      "url": "https://www.republicamicrofinanzas.com.uy/"
+    },
+    "btg-personal-uyu": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 12,
+          "tea": 0.32
+        },
+        {
+          "hasta": 36,
+          "tea": 0.37
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 36,
+      "montoMin": {
+        "valor": 25000,
+        "moneda": "UYU"
+      },
+      "montoMax": {
+        "valor": 315000,
+        "moneda": "UYU"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.00042,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La cartilla dice \"Tasa\" sin aclarar si es efectiva anual; se toma como tal.",
+        "Seguro de vida 0,504 % anual incluido en la cuota; sin seguro, +0,5 puntos."
+      ],
+      "fuente": {
+        "nombre": "BTG Pactual – Préstamos personales con cuenta",
+        "url": "https://static.btgpactual.com/media/prestamos-personales-con-cuenta.pdf",
+        "fecha": "2026-08-01"
+      },
+      "url": "https://www.btgpactual.uy/personas/prestamos/prestamo-personal"
+    },
+    "btg-personal-ui": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 60,
+          "tea": 0.11
+        }
+      ],
+      "plazoMin": 6,
+      "plazoMax": 60,
+      "montoMin": {
+        "valor": 7000,
+        "moneda": "USD"
+      },
+      "montoMax": {
+        "valor": 25000,
+        "moneda": "USD"
+      },
+      "vigenciaHasta": null,
+      "seguroMensual": 0.00042,
+      "cargosAnualesSaldo": 0.00445,
+      "incompleto": null,
+      "salvedades": [
+        "La cartilla dice \"Tasa\" sin aclarar si es efectiva anual; se toma como tal.",
+        "Seguro de vida 0,504 % anual incluido en la cuota; sin seguro, +0,5 puntos."
+      ],
+      "fuente": {
+        "nombre": "BTG Pactual – Préstamos personales con cuenta",
+        "url": "https://static.btgpactual.com/media/prestamos-personales-con-cuenta.pdf",
+        "fecha": "2026-08-01"
+      },
+      "url": "https://www.btgpactual.uy/personas/prestamos/prestamo-personal"
+    },
+    "cd-uy": {
+      "activo": true,
+      "tramos": [
+        {
+          "hasta": 36,
+          "tea": 1.2
+        }
+      ],
+      "grilla": [
+        {
+          "hastaMeses": 12,
+          "hastaMontoUI": 10000,
+          "tea": 1.21
+        },
+        {
+          "hastaMeses": 36,
+          "hastaMontoUI": 10000,
+          "tea": 1.2
+        },
+        {
+          "hastaMeses": 12,
+          "tea": 0.6
+        },
+        {
+          "hastaMeses": 36,
+          "tea": 0.87
+        }
+      ],
+      "plazoMin": 2,
+      "plazoMax": 36,
+      "montoMin": null,
+      "montoMax": null,
+      "vigenciaHasta": null,
+      "incompleto": "No publica plazos, seguro ni gastos; la página de tasas no tiene fecha.",
+      "salvedades": [
+        "Tasas más IVA. En 2024 el BCU le ordenó devolver intereses cobrados en exceso."
+      ],
+      "fuente": {
+        "nombre": "Créditos Directos – Tasas vigentes",
+        "url": "https://www.creditosdirectos.com.uy/tasas-vigentes/",
+        "fecha": "sin fecha"
+      },
+      "url": "https://www.creditosdirectos.com.uy/prestamo-uy/"
+    }
+  },
+  "nuevos": [],
+  "sinDatos": [
+    {
+      "institucion": "OCA",
+      "motivo": "La tasa solo aparece en su simulador."
+    },
+    {
+      "institucion": "Creditel",
+      "motivo": "Topes distintos según la página; sin tarifario fechado."
+    },
+    {
+      "institucion": "Pronto!",
+      "motivo": "Solo publica topes máximos; la tasa comercial publicada es de noviembre de 2025."
+    },
+    {
+      "institucion": "Valor, Club del Este, Pass Card, Verendy",
+      "motivo": "No publican tasas vigentes."
+    },
+    {
+      "institucion": "Cooperativas (ACAC, COOPACE, FUCEREP, Magisterial y otras)",
+      "motivo": "No publican reglamento de préstamos."
+    }
+  ]
+}
