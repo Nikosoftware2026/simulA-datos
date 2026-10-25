@@ -3,47 +3,13 @@
   "fecha": "2026-10-25",
   "mercado": {
     "fecha": "2026-10-23",
-    "fuente": "BCU – servicio de cotizaciones (dólar billete 2225, UI 9800)",
     "usd": 40.078,
     "ui": 6.6745,
     "ur": 1923.44,
-    "urFuente": "UR julio 2026, decreto MEF 453 (último valor oficial hallado)",
     "inflacion5": 0.05581538250689544,
     "dolar5": -0.017953972001273244,
     "peorInflacion": 0.09767652146563921,
-    "mayorSubaDolar12m": 0.13659419366349757,
-    "anios": [
-      {
-        "desde": "2021-10-23",
-        "hasta": "2022-10-23",
-        "inflacion": 0.09767652146563921,
-        "dolar": -0.06071379734718996
-      },
-      {
-        "desde": "2022-10-23",
-        "hasta": "2023-10-23",
-        "inflacion": 0.039648287100875645,
-        "dolar": -0.033871985247731384
-      },
-      {
-        "desde": "2023-10-23",
-        "hasta": "2024-10-23",
-        "inflacion": 0.054293342520024046,
-        "dolar": 0.04465317193229179
-      },
-      {
-        "desde": "2024-10-23",
-        "hasta": "2025-10-23",
-        "inflacion": 0.042217393435391326,
-        "dolar": -0.04173478219059523
-      },
-      {
-        "desde": "2025-10-23",
-        "hasta": "2026-10-23",
-        "inflacion": 0.046307472840996455,
-        "dolar": 0.005469141996989446
-      }
-    ]
+    "mayorSubaDolar12m": 0.13659419366349757
   },
   "productos": {
     "brou-ret-ui-pref": {
