@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "fecha": "2026-10-25",
+  "fecha": "2026-11-01",
   "mercado": {
-    "fecha": "2026-10-23",
-    "usd": 40.078,
-    "ui": 6.6745,
+    "fecha": "2026-10-30",
+    "usd": 40.188,
+    "ui": 6.6827,
     "ur": 1923.44,
-    "inflacion5": 0.05581538250689544,
-    "dolar5": -0.017953972001273244,
-    "peorInflacion": 0.09767652146563921,
+    "inflacion5": 0.05585476816232071,
+    "dolar5": -0.018766943957909232,
+    "peorInflacion": 0.09859597447226309,
     "mayorSubaDolar12m": 0.13659419366349757
   },
   "productos": {
@@ -824,12 +824,12 @@
         "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
         "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
         "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
-        "La página del banco muestra una promoción hasta el 31/10/2026: si lo sacás después, confirmá que esta tasa siga vigente."
+        "La tasa en UI (5 %) no es promocional y la página no le pone vencimiento. La promoción en pesos del 9,25 % venció el 31/10/2026."
       ],
       "fuente": {
         "nombre": "BBVA – Préstamo para autos eléctricos",
         "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
-        "fecha": "2026-10-24"
+        "fecha": "2026-11-01"
       },
       "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
     },
@@ -853,12 +853,12 @@
         "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
         "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
         "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
-        "La página del banco muestra una promoción hasta el 31/10/2026: si lo sacás después, confirmá que esta tasa siga vigente."
+        "La tasa en dólares (5,5 %) no es promocional y la página no le pone vencimiento. La promoción en pesos del 9,25 % venció el 31/10/2026."
       ],
       "fuente": {
         "nombre": "BBVA – Préstamo para autos eléctricos",
         "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
-        "fecha": "2026-10-24"
+        "fecha": "2026-11-01"
       },
       "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
     },
@@ -882,12 +882,12 @@
         "Con prenda, el banco exige seguro todo riesgo del vehículo endosado a su favor (no incluido en el cálculo).",
         "Seguro de vida 2,5 por mil mensual sobre saldo. Prestación Social Complementaria y Tasa de Control aparte.",
         "BBVA no publica la relación cuota/ingreso: se usa 25 % (15 % en dólares).",
-        "Promoción en pesos válida hasta el 31/10/2026."
+        "La promoción de 9,25 % en pesos venció el 31/10/2026 y al 01/11/2026 el banco no publicó una tasa nueva en pesos: preguntala en el banco. En UI y en dólares el préstamo sigue vigente."
       ],
       "fuente": {
         "nombre": "BBVA – Préstamo para autos eléctricos",
         "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html",
-        "fecha": "2026-10-24"
+        "fecha": "2026-11-01"
       },
       "url": "https://www.bbva.com.uy/personas/productos/prestamos/automotor/prestamo-para-autos-electricos.html"
     },
@@ -1543,12 +1543,14 @@
       "cargosAnualesSaldo": 0.00445,
       "incompleto": "Sin cartilla publicada: el seguro de vida y los gastos se estiman.",
       "salvedades": [
-        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica."
+        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica.",
+        "El vehículo tiene que valer USD 6.000 o más y puede ser nuevo o usado de hasta 15 años; el préstamo es a sola firma, sin prenda.",
+        "La página pide ser menor de 75 años al momento de constituir el préstamo."
       ],
       "fuente": {
         "nombre": "Scotiabank – Préstamo Automotor",
-        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor",
-        "fecha": "2026-10-24"
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor",
+        "fecha": "2026-11-01"
       },
       "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
     },
@@ -1572,12 +1574,14 @@
       "cargosAnualesSaldo": 0.00445,
       "incompleto": "Sin cartilla publicada: el seguro de vida y los gastos se estiman.",
       "salvedades": [
-        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica."
+        "Tasas \"desde\" de la página del producto; el plazo al que corresponden no se publica.",
+        "El vehículo tiene que valer USD 6.000 o más y puede ser nuevo o usado de hasta 15 años; el préstamo es a sola firma, sin prenda.",
+        "La página pide ser menor de 75 años al momento de constituir el préstamo."
       ],
       "fuente": {
         "nombre": "Scotiabank – Préstamo Automotor",
-        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor",
-        "fecha": "2026-10-24"
+        "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Automotor/prestamo-automotor",
+        "fecha": "2026-11-01"
       },
       "url": "https://www.scotiabank.com.uy/Personas/Prestamos/Prestamo-Personal/prestamo-personal"
     },
@@ -1686,7 +1690,7 @@
       "vigenciaHasta": null,
       "incompleto": "ANDA no publica el seguro, la cuota social ni la relación cuota/ingreso.",
       "salvedades": [
-        "Tasas vigentes para octubre de 2026, más IVA. Mora 37,70 % + IVA."
+        "Tasas vigentes para octubre de 2026, más IVA: al 01/11/2026 ANDA seguía publicando las de octubre. Mora 37,70 % + IVA."
       ],
       "fuente": {
         "nombre": "ANDA – Préstamos (tasas vigentes octubre 2026)",
@@ -1720,7 +1724,7 @@
       "vigenciaHasta": null,
       "incompleto": "La cartilla no publica el seguro de vida ni la relación cuota/ingreso.",
       "salvedades": [
-        "Cartilla vigente del 01/10 al 31/10/2026. Mora 49 %.",
+        "La cartilla publicada es la de octubre (vigencia 01/10 al 31/10/2026): al 01/11/2026 todavía no estaba la de noviembre, así que las tasas pueden cambiar. Mora 49 %.",
         "Hasta 30.000 UI para clientes con 2 años."
       ],
       "fuente": {
